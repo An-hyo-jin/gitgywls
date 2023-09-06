@@ -1,8 +1,26 @@
+0. 정보화 사회 이해
+    1) 농업혁명 => 산업혁명 => Big data, AI (Machine Learning, Deep Learning)
+    2) 데이터(data)
+        - 정보의 원재료
+        - 이진(binary)과 같은 형태로 바뀌어진 자료 
+        - 데이터 표현 단위
+            - 비트(Bit) : 0, 1
+            - 바이트(Byte) : 1 byte = 8 Bit
+            - 킬로바이트(KB,kiloByte) : 1KB = 1024 byte = 2^10 byte
+            - 메가바이트(MB,MegaByte) : 1MB = 1024 byte = 2^20 byte
+            - 기가바이트(GB,GigaByte) : 1GB = 1024 byte = 2^30 byte
+            - 테라바이트(TB,TeraByte) : 1TB = 1024 byte = 2^40 byte
+            
+    3) 정보(information)
+        -가공된 데이터 
+        - 어떤 사물에 대한 소식이나 자료     
+
 1. 메인 보드
     1) 다양한 물리적인 장치 (device)를 장착할 수 있는 인쇄회로기판(PCB) 임.
     2) 컴퓨터의 CPU, 메인 메모리, 하드 디스크(보조기억장치)등을 장착함.
     3) 다양한 컴퓨터 부품을 연결할 수 있는 인터페이스를 제공함.
     4) Moterboard라고도 불림. 
+    5) 데이터의 전달 통로가 디자인 되어있는 메인 보드
 
 2. GPU(Graphics Processing Unit)
     1) 그래픽 관련 연산을 빠르게 처리하는 연산 장치 임
@@ -26,7 +44,7 @@
         3) 일반적으로 프로그램을 실행하면, 프로그램은 메인 메모리에 적재(프로세스 형태)됨
         4) 이후에 CPU는 메인 메모리에 적재된  프로그램 명령 코드를 읽어 들여 실행(처리)함.
 
-    5. CPU (중앙처리장치)
+    5. CPU (Contral Processing Unit, 중앙처리장치)
         1) 메인 보드에 가장 먼저 연결하는 장치 중 하나임. 
         2) CPU는 컴퓨터의 구성 요서 중에 뇌와 같은 역할 수행 함. 
         3) 연산(Computation)과 제어(control)를 담당함
