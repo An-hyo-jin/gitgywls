@@ -92,4 +92,4 @@
     4. 자바 언어로 문제 해결하기      
 10. IDE (Integrated Development Environment)
     1) Eclipse (이클립스)
-    2) Intellij (인텔리제이)   
+    2) Intellij (인텔리제이)      !
