@@ -56,14 +56,14 @@
         - 매개변수의 개수, 매개변수의 타입 달라야 함
                     -----            ----
                     (시그니처, signature)
-    -예
-
-     public int add(int x,int y) {
+    -예                                             컴파일
+                                                   ====>
+     public int add(int x,int y) {                              add_int_int(10,50);
         int z = x +y;             
         return z;                    
      }
 
-     public int add(float a,float b) {
+     public int add(float a,float b) {                          add_float_float(34.5f,56,55f);
         int z = x +y;             
         return z;                    
      }
@@ -73,3 +73,24 @@
         return z;                    
      }
                                                       
+7. 정적 바인딩이란?
+ 1) 컴파일 시점에서 사용될(호출) 메서드가 결정되는 바인딩
+    -add(34.5f,56,55f);
+     add(int10,50);  
+
+8. 개발자가 사용하게 될 메서드 종류
+    1) 메서드
+        - 클래스 내에서 독립적으로 만들어야 함
+        - 하나의 단위작업을 처리
+
+    2) 메인 클래스 
+        - main() : 미리 작성하여 제공하는 메서드 
+        - 사용자 정의 메서드 1      
+        - 사용자 정의 메서드 2 
+    3) String
+    - length(), charAT(int index), toUpperCase().... : 미리 작성하여 제공하는 메서드          
+
+    4) MyClass
+        - 사용자 정의 메서드 1
+        - 사용자 정의 메서드 2
+        - 사용자 정의 메서드 3
