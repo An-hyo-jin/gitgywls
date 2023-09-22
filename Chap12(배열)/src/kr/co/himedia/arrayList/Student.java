@@ -21,10 +21,48 @@ public class Student {
 		subject.setName(name);
 		subject.setScorePoint(score);
 		
-		subjectList.add(subject);
-		
+		subjectList.add(subject);		
 		
 	}
 	
+	public void showInfo() {
+		int total = 0;
+		
+		for(Subject subject : subjectList) {
+			total+= subject.getScorePoint();
+			System.out.println("학생 "+this.studentName+"의"+subject.getName()+"과목 성적은"+
+		subject.getScorePoint()+"점 입니다.");
+			
+		}		
+		
+		System.out.println("학생"+this.studentName+"총점은"+total+"입니다.");
+		
+		
+	
 
+	}
+
+	public void addBook(String string, String string2) {
+		// TODO Auto-generated method stub
+		
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -13,6 +13,48 @@ package kr.co.himedia.arrayList;
  */
 public class StudentTest {
 	
+	public static void main(String[] args) {
+		
+		Student studentL = new Student(2023, "Lee");
+		studentL.addSubject("국어",100);
+		studentL.addSubject("수학",70);
+		
+		Student studentL1 = new Student(2023, "shin");
+		studentL1.addSubject("국어",70);
+		studentL1.addSubject("수학",90);
+		studentL1.addSubject("영어",100);	
+		
+		
+		
+		studentL. showInfo();
+		
+		System.out.println();
+		
+		studentL1. showInfo();
+		
+		
+		
+		
+	}
 	
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
