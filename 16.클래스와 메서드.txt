@@ -46,7 +46,24 @@
 
 5. 매개변수 전달기법(parameter passing)
     1) Call By Value( 값 전달)    
-    2) Call by Reference (번지 전달)
+        -public int add( int a,  int b) {
+            int sum = a+b;
+            return sum;
+        }
+        - int a = 10; 
+          int b = 20;
+          add(a,b); 
+        
+    2) Call by Reference (번지 전달)      <==자바는 거의  Call by Reference 사용
+      -public int add( int[]a) {
+            int sum = 0;
+            for(int i=0; i<a.length;i++) {
+                sum+=a[i];
+            }
+            return sum;
+        }
+        - int [] a = {1,2,3,4,5}; 
+          add(a); 
     
 6. 메서드 오버로딩(Overloading)
     1) 하나의 클래스 내에서 동일한 이름의 메서드를 여러 개 사용할 있는 객체지향 기법
@@ -74,7 +91,7 @@
      }
                                                       
 7. 정적 바인딩이란?
- 1) 컴파일 시점에서 사용될(호출) 메서드가 결정되는 바인딩
+ 1) 컴파일 시점에서 사용될(호출) 메서드가 결정(연결)되는 바인딩
     -add(34.5f,56,55f);
      add(int10,50);  
 
