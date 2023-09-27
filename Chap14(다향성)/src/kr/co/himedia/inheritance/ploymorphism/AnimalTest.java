@@ -108,25 +108,3 @@ public class AnimalTest {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
