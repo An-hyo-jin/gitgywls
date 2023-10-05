@@ -1,0 +1,29 @@
+1. java. lang 패키지
+    1) 프로그래밍시 import 하지 않아도 자동 import됨
+    2) import java.lang.*;
+    3) 많이 사용하는 기본 클래스들이 속한 패키지
+        - String, System, Integer ... 
+
+2. Object 클래스
+    1) 모든 클래스의 최상위 클래스 
+    2) java.lang.Object
+    3) 모든 클래스는 object에서 상속받고,Object클래스의 메서드 중 일부는 재정의해서 사용할 수 있음
+    4) 컴파일러가 extends object를 추가함 
+
+    5) toString() 메서드
+        - 객체의 정보를 String으로 바꾸어서 사용할 때 쓰임
+        - String이나 Integer 클래스는 이미 재정의 되어 있음
+    6) eqluals(object obj) 메서드
+        - 두 인스턴스의 주소 값을 비교하여 true/false를 반환
+        - 재정의하여 두 인스턴스가 논리적으로 동일함의 여부를 구현함 
+        - 인스턴스가 다르더라도 논리적으로 동일한 경우 true를 반환하도록 재정의 할수 있음
+            - 예) 같은 학번, 같은 사번, 아이디의 회원...
+    
+    7)hashCode() 메서드
+        - 인스턴스의 저장 주소를 반환함
+        - 두 인스턴스가 같다는 것의 의미 
+            - 두 인스턴스에 대한 eqluals()의 반환 값이 true,
+              동일한 hashCode() 값을 반환
+            - 논리적으로 동일함을 위해 eqluals() 메서드를 재정의
+              hashCode() 메서드도 재정의하여 동일한 hashCode 값이 반환되도록 함
+
