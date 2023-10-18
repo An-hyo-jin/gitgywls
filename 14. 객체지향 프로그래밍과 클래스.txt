@@ -1,4 +1,4 @@
-객체(Object)와 객체 지향 프로그램(Object Oriented Programming, OPP)
+객체(Object)와 객체 지향 프로그램(Object Oriented Programming, OOP)
 
 2. 객체
     1) 생각이나 행위의 영향을 주는 대상(사전적 의미)
